@@ -1,0 +1,493 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#frame{
+    display: flex;
+    height: 48px;
+}
+#logo{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 20%;
+}
+#logo_image{
+    height: 16px;
+}
+#nav{
+    width: 60%;
+}
+#nav ul{
+    display: flex;
+    justify-content:space-between;
+}
+#nav ul a{
+    font-size: 1.1em;
+    font-weight: 400;
+    color: rgb(41, 38, 38);
+}
+#nav ul a:hover{
+    color: red;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+#regis{
+    margin-top: 5px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 20%;
+}
+#sign{
+    display: flex;
+    height: 28px;
+    width: 50%;
+    margin: 0 auto;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ghostwhite;
+    height: 28px;
+    width: 50%;
+}
+#login a{
+    color: #28a745;
+    font-size: 1.1em;
+}
+#signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 50%;
+    border-radius: 6px;
+    background-color: #28a745;
+}
+#signup a{
+    color: white;
+}
+#hero_section{
+    display: flex;
+    margin: 90px auto 50px auto;
+    height: 350px;
+    width: 90%;
+    background-color: ghostwhite;
+}
+#hero_text{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 300px;
+    width: 60%;
+}
+#text{
+    height: 250px;
+    width: 70%;
+}
+#text h1{
+    color: rgb(46, 45, 45);
+    font-size: 2.5em;
+}
+#register{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 25%;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+#register a{
+    color: white;
+    font-size: 1.3em;
+}
+#hero_illustration{
+    height: 300px;
+    width: 40%;
+}
+#illustration{
+    margin-top: 30px;
+    margin-left: 100px;
+    height: 250px;
+    width: 40%;
+}
+#client{
+    padding: 0px;
+    height: 150px;
+    width: 90%;
+    margin: 0 auto;
+}
+#client_text{
+    margin: 0px auto;
+    height: 50%;
+    width: 75%;
+    text-align: center;
+}
+#client_text h1{
+    margin-top: 0px;
+    color: rgb(63, 59, 59);
+    margin-bottom: 10px;
+}
+#client_logos{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px auto;
+    height: 50%;
+    width: 75%;
+}
+.client_image{
+    margin-top: 15px;
+    height: 40px;
+}
+#community{
+    margin: 50px auto 20px auto;
+    height: 350px;
+    width: 80%;
+}
+#community_text{
+    height: 35%;
+    text-align: center;
+}
+#community_text h1{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: rgb(63, 59, 59);
+}
+#community_text p{
+    margin-top: 10px;
+}
+#community_logos{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 65%;
+}
+.community_logos1{
+    height: 90%;
+    width: 25%;
+}
+.icon{
+    margin: 10px 0px 0px 120px;
+    height: 50px;
+    width: 50px;
+}
+.community_logos1 h3{
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(63, 59, 59);
+}
+.community_logos1 p{
+    margin-top: 0px;
+    text-align: center;
+    color: rgb(93, 92, 92);
+}
+#achievment{
+    margin: 20px auto 20px auto;
+    height: 2200px;
+    width: 80%;
+}
+#achievment1{
+    display: flex;
+    height: 300px;
+    margin-bottom: 20px;
+}
+#achievment1_logo{
+    width: 40%;
+}
+#achievment1_logo_image{
+    margin-left: 125px;
+    height: 300px;
+}
+#achievment1_text{
+    width: 50%;
+}
+#achievment1_text h2{
+    margin: 50px 0px 10px 20px;
+    color:rgb(63, 59, 59) ;
+}
+#achievment1_text p{
+    margin-top: 10px;
+    margin-left: 20px;
+    color:rgb(93, 92, 92) ;
+}
+#learn_more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 4px;
+    height: 30px;
+    width: 120px;
+    background-color: #28a745;
+    border-radius: 5px;
+}
+#learn_more a{
+    color: white;
+    font-size: 1.1em;
+}
+#achievment2{
+    margin-bottom: 25px;
+    display: flex;
+    height: 200px;
+    background-color: ghostwhite;
+}
+#achievment2_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#achievment2_left_text{
+    margin-left: 50px;
+    width: 70%;
+    height: 120px;
+}
+#achievment2_left_text h1{
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+#achievment2_left_text p{
+    margin-top: 8px;
+    color: rgb(93, 92, 92);
+}
+#achievment2_right{
+    width: 50%;
+}
+.row1{
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+    height: 50px;
+}
+.row1_logo{
+    height: 35px;
+    width: 35px;
+}
+.col1{
+    display: flex;
+    width: 50%;
+}
+.col1_img{
+    width: 25%;
+}
+.col1_text{
+    width: 75%;
+}
+.num{
+    margin: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color:rgb(63, 59, 59);
+}
+.text{
+    margin: 10px;
+    color: rgb(93, 92, 92);
+    font-size: 0.8em;
+}
+#achievment3{
+    display: flex;
+    margin: 40px 0 25px 0;
+    height: 300px;
+}
+#achievment3_img{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#pana{
+    height: 275px;
+    width: 70%;
+}
+#achievment3_text{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#para{
+    width: 80%;
+    height: 250px;
+}
+#achievment3_text h1{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:rgb(63, 59, 59);
+}
+#achievment3_text p{
+    margin-left: 10px;
+    color:rgb(63, 59, 59);
+    font-size: 0.9em;
+}
+#achievment3_buttom{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 40px;
+    width: 25%;
+    background-color: #28a745;
+    border-radius: 5px;
+    
+}
+#achievment3_buttom a{
+    color: white;
+    font-size: 1.1em;
+}
+#achievment4{
+    display: flex;
+    margin: 40px 0 25px 0;
+    height: 300px;
+    background-color: ghostwhite;
+}
+#achievment4_left{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 40%;
+}
+#achievment4_img{
+    height: 225px;
+    margin-right: 20px;
+}
+#achievment4_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+#achievment4_para{
+    height: 240px;
+    width: 90%;
+    color: rgb(63, 59, 59);
+}
+#frame11{
+    display: flex;
+    height: 50px;
+}
+#png{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.png1{
+    height: 40px;
+    width: 40px;
+}
+#meet{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+#meet1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    color: #28a745;
+}
+#achievment5{
+    height: 400px;
+}
+#achievment5_top{
+    height: 40%;
+    text-align: center;
+}
+#achievment5_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.png2{
+    height: 250px;
+    width: 25%;
+}
+#achievment6{
+    margin: 40px 0px 30px 0px;
+    height: 475px;
+}
+#achievment6_top{
+    height: 40%;
+    text-align: center;
+}
+#achievment6_buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 12%;
+    background-color: #28a745;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+#achievment6_buttom a{
+    color: white;
+    font-size: 1.1em;
+}
+#achievment6_bottom{
+    display: flex;
+    height: 60%;
+    background-color: rgb(38, 50, 56);
+}
+#achievment6_bottom_left{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 40%;
+}
+#achievment6_bottom_left_logo{
+    height: 80%;
+    width: 60%;
+}
+#nexcent{
+    margin: 5px 0px 0px 5px;
+    height: 25px;
+    width: 120px;
+}
+#path{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 35px;
+    width: 50%;
+}
+#achievment6_bottom_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    color: white;
+}
+#table{
+    width: 75%;
+    height: 70%;
+}
+#tab{
+    width: 100%;
+    height: 100%;
+}
+#tab th,td{
+    text-align: left;
+}
+#tab td{
+    font-size: 0.9em;
+}
+#tab td a{
+    color: white;
+}
+.email{
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+}
+
+
